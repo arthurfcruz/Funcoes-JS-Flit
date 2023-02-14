@@ -51,4 +51,27 @@ function confirmarDados2(nome) {
     }
 
 }
-confirmarDados2("Marcos")
+
+
+//1.6 - 4
+
+function confirmarDados3(nome, idade) {
+    var nomeCompleto = nome + " da Silva"
+    var geracao = "milenium"
+    function getAnoNascimento(){
+        var ano = 2022 - idade
+        return ano
+    }
+    var anoNascimento = getAnoNascimento()
+    function geracaoPertencente(idade) {
+        if (anoNascimento <= 1995) {
+            var geracao = "geracao X"
+            return geracao
+        }
+    }
+    geracao = geracaoPertencente(idade)
+    console.log("seu nome completo é " + nomeCompleto)
+    console.log("seu ano de nascimento é " + anoNascimento)
+    console.log("sua geracao é " + geracao)
+}
+confirmarDados3("Marcos", 40)
