@@ -11,7 +11,7 @@ function confirmarDados(nome) {
     console.log("seu ano de nascimento é " + getAnoNascimento())
     console.log("sua idade é " + idade)
 }
-
+confirmarDados("Marcos")
 
 //1.6 - 2
 
@@ -31,7 +31,7 @@ function confirmarDados1(nome) {
     console.log("seu ano de nascimento é " + anoNascimento)
     console.log("sua geracao é " + geracao)
 }
-
+confirmarDados1("Marcos")
 
 //1.6 - 3
 
@@ -51,7 +51,7 @@ function confirmarDados2(nome) {
     }
 
 }
-
+confirmarDados2("Marcos")
 
 //1.6 - 4
 
