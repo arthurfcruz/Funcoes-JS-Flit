@@ -12,6 +12,7 @@ function confirmarDados(nome) {
     console.log("sua idade é " + idade)
 }
 
+
 //1.6 - 2
 
 function confirmarDados1(nome) {
@@ -31,4 +32,23 @@ function confirmarDados1(nome) {
     console.log("sua geracao é " + geracao)
 }
 
-confirmarDados1("Marcos")
+
+//1.6 - 3
+
+function confirmarDados2(nome) {
+    var nomeCompleto = nome + " da Silva"
+    try {
+        function getAnoNascimento(){
+            var idade = 20
+            var ano = 2022 - idade
+            return ano
+        }
+        console.log("seu nome completo é " + nomeCompleto)
+        console.log("seu ano de nascimento é " + getAnoNascimento())
+        console.log("sua idade é " + idade)
+    } catch (error) {
+        console.log("um erro foi encontrado e nao foi possivel concluir a operacao")
+    }
+
+}
+confirmarDados2("Marcos")
